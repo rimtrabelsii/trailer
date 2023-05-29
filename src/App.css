@@ -1,0 +1,128 @@
+
+.body {
+    
+   margin-top: -8px;
+   
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+  }
+  .car1 {
+
+    position: relative;
+    width: 320px;
+    margin: 0px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+   
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 230px;
+    height: 160px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  
+
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("https://www.francetvinfo.fr/pictures/SsKRxsrhnC9lSysQrhuLduaN-Aw/1200x1200/2023/04/05/642d7c68aeb85_339747915-608633397507401-8587350707226671144-n.jpg");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://media.titanbooks.com/catalog/products/Conan_the_Barbarian.jpg");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://m.media-amazon.com/images/M/MV5BN2Y1ODhkMTctYWVmYy00ZmNkLTgyNTYtZWQxNWY3MTVlZmFkXkEyXkFqcGdeQXVyNjk5MjA5NDM@._V1_.jpg");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://assets.afcdn.com/album/D20221116/phalbm26106368_w320.webp");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("https://fr.web.img6.acsta.net/pictures/22/10/24/17/14/4700907.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd3wf_qLzES6Qx3vlIwZh5_WNJAdc0kUtlYw&usqp=CAU");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://photos.tf1.fr/700/933/vignette-portrait-1be5b2-7f1865-0@1x.jpg?overlay=overlay_film-dcdaa6");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAn550U9Lyd_ecJ5jbVw41sTGIoOG4vcvL3g&usqp=CAU");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTETHQoTSxl4WcZzvRnXdopG8HLm3TxN_1AoQ&usqp=CAU");
+    transform: rotateY(310deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-160deg);
+    }
+  }
+  
+
+  
+
+.butt{    display: flex;
+    border: yellow;
+    margin-top: -55px;
+    margin-bottom: 29px;
+    justify-content: flex-end;
+    align-items: center;}
+
+
+   
+ .hello{
+      background-image: url("https://media.istockphoto.com/id/1058727850/vector/abstract-shiny-background-with-blank-film-strips-and-copy-space.jpg?s=612x612&w=0&k=20&c=8o62Z8rY_RQFpqg7fPVCEzvD4iUCG_3Zvkohu0lv1dY=");
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+    } 
+  .nav{background-color:rgb(221, 235, 252);
+    height: 87px;}
+    .aaa{ background-color:rgb(221, 235, 252);
+      height: 87px;}
+      #navbarScrollingDropdown{color: blue;
+        font-weight: 700;
+        margin-top: 6px;}
+
+.add1{display: flex;
+justify-content: center;
+
+background-color: rgb(221, 235, 252);
+color: rgb(242 217 162);
+
+border: none; 
+border-radius: 6px;
+}
+.foot{
+  height: 100px;
+  background-color:rgb(142, 160, 182) ; 
+
+}  
+.star{margin-left: 615px;}
